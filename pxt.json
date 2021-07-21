@@ -1,0 +1,22 @@
+{
+    "name": "CalliBot2_Empfänger_Standard",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "callibot2": "github:knotechgmbh/callibot2#v0.1.1",
+        "Calli:bot": "github:knotechgmbh/callibot#v1.0.14"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
